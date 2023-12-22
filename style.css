@@ -1,0 +1,115 @@
+:root {
+  --color-primary: #e6735b; /* Delikatny pomarańczowo-czerwony */
+  --color-secondary: #003478; /* Niezmieniony niebieski */
+  --color-tertiary: #000000; /* Niezmieniony czarny */
+
+  --color-primary-darker: #cc5c4b; /* Ciemniejszy delikatny pomarańczowo-czerwony */
+  --color-secondary-darker: #00265b; /* Niezmieniony ciemniejszy niebieski */
+  --color-tertiary-darker: #333333; /* Niezmieniony ciemny szary */
+
+  --color-primary-opacity: #e6735b3a; /* Przezroczysty delikatny pomarańczowo-czerwony */
+  --color-secondary-opacity: #0034783a; /* Niezmieniony przezroczysty niebieski */
+  --color-tertiary-opacity: #0000003a; /* Niezmieniony przezroczysty czarny */
+
+  --gradient-primary: linear-gradient(
+    to top left,
+    #e6735b,
+    #003478
+  ); /* Gradient z delikatnym pomarańczowo-czerwonym i niebieskim */
+  --gradient-secondary: linear-gradient(
+    to top left,
+    #cc5c4b,
+    #00265b
+  ); /* Gradient z ciemniejszym delikatnym pomarańczowo-czerwonym i ciemniejszym niebieskim */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.9;
+  background-color: #f3f3f3;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+p {
+  color: #666;
+}
+
+.section {
+  padding: 15rem 3rem;
+  border-top: 1px solid #ddd;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9rem;
+  width: 100%;
+  padding: 0 6rem;
+  z-index: 100;
+  color: #333;
+}
+
+.nav__logo {
+  height: 24rem;
+}
+
+.nav__links {
+  display: flex;
+}
+
+.nav__item {
+  list-style: none;
+}
+
+.header {
+  padding: 1.2rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.nav__link:link,
+.nav__link:visited {
+  padding: 3.6rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+  display: block;
+  transition: all 0.3s;
+  color: #333;
+}
+
+.nav__link--btn:link,
+.nav__link--btn:hover {
+  padding: 0.8rem 2.5rem;
+  border-radius: 3.2rem;
+  background-color: var(--color-primary);
+  color: #000;
+  margin-top: 2.4rem;
+}
+
+.nav__link--btn:hover,
+.nav__link--btn:active {
+  color: inherit;
+  background-color: var(--color-primary-darker);
+  color: #333;
+}
