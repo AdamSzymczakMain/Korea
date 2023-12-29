@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -36,43 +37,13 @@
           <a class="nav__link nav__link--btn" href="#">Zarezerwuj</a>
         </li>
       
-    </nav>
+      </nav>
+      
     <div class="header-title">
       <h1>Travel</h1>
     </div>
+    
     <div class="booking">
-      <div class="location box-booking">
-        <p class="title-booking">Where</p>
-        <svg class="img-loc" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-          <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-        </svg>
-        <div class="dropdown">
-          <button class="dropbtn">Wybierz kraj</button>
-          <div class="dropdown-content">
-            <a href="#">Korea</a>
-            <a href="#">Japonia</a>
-            <a href="#">Filipiny</a>
-          </div>
-        </div>
-      </div>
-      <div class="check-in box-booking">
-        <p class="title-booking">Check-in</p>
-        <!-- Tutaj możesz dodać interaktywny wybór daty -->
-      </div>
-      <div class="check-out box-booking">
-        <p class="title-booking">Check-out</p>
-        <!-- Tutaj również możesz dodać interaktywny wybór daty -->
-      </div>
-      <div class="guests box-booking">
-        <p class="title-booking">Guests</p>
-        <!-- Tutaj można dodać wybór ilości gości -->
-      </div>
-      <div class="search box-booking">
-        <button class="search-button">Search</button>
-      </div>
-    </div>
-    <!-- <div class="booking">
       <div class="location box-booking"><p class="title-booking
         ">Where</p>
          <svg class="img-loc" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -81,60 +52,54 @@
         </svg>
         
         
-          <div class="dropdown">
-            <button class="dropbtn">Korea
+          <div>
+            <select class="dropdown">
+              <option value="" disabled="disabled" selected="selected">Kraj</option>
+              <option value="1">Korea</option>
+              <option value="1">Japonia</option>
+              <option value="2">Filipiny</option>
+          </select>
             
-            </button>
-            <div class="dropdown-content">
-              <a href="#">Japonia</a>
-              <a href="#">Filipiony</a>
-          
-            </div>
+            
           </div>
-        </p></div>
-      <div class="check-in box-booking"><p class="title-booking
-        ">Check-in
+        
+        </div>
+      <div class="check-in box-booking title-booking">
+        <label for="check-in">Check-in:</label>
+        <input type="date" id="check-in" name="check-in">
+      </div>
 
-      </p></div>
-      <div class="check-out box-booking"><p class="title-booking
-        ">Check-out</p></div>
-      <div class="guets box-booking"><p class="title-booking
-        ">Guets</p></div>
+      <div class="check-out box-booking title-booking">
+        <label for="check-out">Check-out:</label>
+        <input type="date" id="check-out" name="check-out">
+      </div>
+
+      <div class="guets box-booking">
+        <p class="title-booking">Guets</p>
+        
+          <select class="dropdown-guests">
+            <option value="" disabled="disabled" selected="selected">Liczba osób</option>
+            <option value="1">1 Osoba</option>
+            <option value="2">2 Osoby</option>
+            <option value="3">3 Osoby</option>
+            <option value="4">4 Osoby</option>
+            <option value="5">5 Osoby</option>
+            <option value="6">6 Osoby</option>
+            <option value="7">7 Osoby</option>
+            <option value="8">8 Osoby</option>
+            <option value="9">9 Osoby</option>
+            <option value="10">10 Osoby</option>
+          </select>
+      </div>
+
       <div class="seacher box-booking ">
-        <p class="link--btn box-booking title-booking
-        ">Seacher</p>
-      </div> -->
+        <button class="link--btn box-booking title-booking
+        ">Seacher</button>
+      </div>
     </header>
     <div class="section--1">
 
-      <div class="search-bar">
-        <div class="input-group">
-          <label for="where">WHERE</label>
-          <select id="where">
-            <option value="korea">Korea</option>
-            <option value="japan">Japonia</option>
-            <option value="philippines">Filipiny</option>
-          </select>
-        </div>
-        <!-- Reszta kodu pozostaje bez zmian -->
-        <div class="input-group">
-          <label for="check-in">CHECK IN</label>
-          <button type="button" id="check-in">12 November</button>
-        </div>
-        <div class="input-group">
-          <label for="check-out">CHECK OUT</label>
-          <button type="button" id="check-out">2 December</button>
-        </div>
-        <div class="input-group">
-          <label for="guests">GUESTS</label>
-          <select id="guests">
-            <option value="1">1 Person</option>
-            <option value="2">2 Persons</option>
-            <!-- More options -->
-          </select>
-        </div>
-        <button type="submit" class="search-button">SEARCH</button>
-      </div>
+    
 
     </div>
     
