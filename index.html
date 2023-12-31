@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
@@ -13,72 +13,92 @@
     <title>Mimi Korea Trip</title>
   </head>
   <body>
-    
     <header class="header">
       <nav class="nav">
         <div class="logo">
-        <img src="img/logo.png" alt="Logo Mimi Korea Trip" class="nav__logo" />
-      </div>
-      <div class="navigation">
-      <ul class="nav__links">
-        <li class="nav__item">
-          <a class="nav__link" href="#">O mnie!</a>
-        </li>
-      <li class="nav__item">
-          <a class="nav__link" href="#">Wycieczki</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="#">Kontakt</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="#">Portfolio</a>
-        </li>
-      <li class="nav__item">
-          <a class="nav__link nav__link--btn" href="#">Zarezerwuj</a>
-        </li>
-      
+          <img
+            src="img/logo.png"
+            alt="Logo Mimi Korea Trip"
+            class="nav__logo"
+          />
+        </div>
+        <div class="navigation">
+          <ul class="nav__links">
+            <li class="nav__item">
+              <a class="nav__link" href="#">O mnie!</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Wycieczki</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Kontakt</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link nav__link--btn" href="#">Zarezerwuj</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-      
-    <div class="header-title">
-      <h1>Travel</h1>
-    </div>
-    
-    <div class="booking">
-      <div class="location box-booking"><p class="title-booking
-        ">Where</p>
-         <svg class="img-loc" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-          <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-        </svg>
-        
-        
+
+      <div class="header-title">
+        <h1>Travel</h1>
+      </div>
+
+      <div class="booking">
+        <div class="location box-booking">
+          <p class="title-booking">Gdzie</p>
+          <svg
+            class="img-loc"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="{1.5}"
+            stroke="currentColor"
+            className="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+            />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+            />
+          </svg>
+
           <div>
             <select class="dropdown">
-              <option value="" disabled="disabled" selected="selected">Kraj</option>
+              <option value="" disabled="disabled" selected="selected">
+                Kraj
+              </option>
               <option value="1">Korea</option>
               <option value="1">Japonia</option>
               <option value="2">Filipiny</option>
-          </select>
-            
-            
+            </select>
           </div>
-        
         </div>
-      <div class="check-in box-booking title-booking">
-        <label for="check-in">Check-in:</label>
-        <input type="date" id="check-in" name="check-in">
-      </div>
+        <div class="check-in box-booking title-booking">
+          <label for="check-in">Od kiedy:</label>
+          <input type="date" id="check-in" name="check-in" />
+        </div>
 
-      <div class="check-out box-booking title-booking">
-        <label for="check-out">Check-out:</label>
-        <input type="date" id="check-out" name="check-out">
-      </div>
+        <div class="check-out box-booking title-booking">
+          <label for="check-out">Do kiedy:</label>
+          <input type="date" id="check-out" name="check-out" />
+        </div>
 
-      <div class="guets box-booking">
-        <p class="title-booking">Guets</p>
-        
+        <div class="guets box-booking">
+          <p class="title-booking">Osoby</p>
+
           <select class="dropdown-guests">
-            <option value="" disabled="disabled" selected="selected">Liczba osób</option>
+            <option value="" disabled="disabled" selected="selected">
+              Liczba osób
+            </option>
             <option value="1">1 Osoba</option>
             <option value="2">2 Osoby</option>
             <option value="3">3 Osoby</option>
@@ -90,19 +110,19 @@
             <option value="9">9 Osoby</option>
             <option value="10">10 Osoby</option>
           </select>
-      </div>
+        </div>
 
-      <div class="seacher box-booking ">
-        <button class="link--btn box-booking title-booking
-        ">Seacher</button>
+        <div class="seacher box-booking">
+          <button class="link--btn box-booking title-booking">Szukaj</button>
+        </div>
       </div>
     </header>
     <div class="section--1">
-
-    
-
-    </div>
-    
+      <h2 class="h2">Twoja najlepsza przygoda</h2>
+      <p class="section1-p">
+        Przyłącz się do naszej niezapomnianej podróży życia! Odkrywaj, przeżywaj
+        i ciesz się każdą chwilą. Zarezerwuj swoją przygodę już teraz!
+      </p>
     </div>
   </body>
 </html>
