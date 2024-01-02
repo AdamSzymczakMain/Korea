@@ -90,7 +90,7 @@ p {
 
 .header {
   padding: 1.2rem;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -107,7 +107,7 @@ p {
 
 .header-title {
   font-size: 8rem;
-  color: #333;
+  color: #000;
   border-radius: 2rem;
 
   max-width: 115rem;
@@ -143,6 +143,7 @@ p {
 
 .booking {
   display: flex;
+  background-color: #fff;
 }
 
 .box-booking {
@@ -275,6 +276,50 @@ p {
 .h2 {
   display: flex;
   justify-content: center;
-
   font-size: 3.6rem;
+}
+
+.section1-p {
+  display: flex;
+  text-align: center;
+  max-width: 60%;
+  font-size: 2.4rem;
+  margin: 0 auto;
+}
+
+.section--2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+  background-color: #fff;
+}
+
+.trip {
+  display: flex;
+  margin: 2rem;
+  gap: 1.2rem;
+  box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.14);
+}
+
+.img-trip {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.text-trip {
+  padding: 1.2rem;
+}
+
+.header-trip {
+  text-align: center;
+  font-weight: 800;
+  margin-top: 1.2rem;
+}
+
+footer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
 }
