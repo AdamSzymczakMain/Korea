@@ -319,7 +319,61 @@ p {
 }
 
 footer {
-  margin-top: 2rem;
   display: flex;
   justify-content: space-between;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(img/Korea.img1.png);
+  background-position: bottom;
+}
+
+.footer__link {
+  color: #000;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer__item,
+.social-links {
+  list-style: none;
+}
+
+.social-links {
+  padding-top: 2rem;
+  display: flex;
+  gap: 2rem;
+
+  font-size: 1.8rem;
+}
+
+.footer-link {
+  color: #000;
+}
+
+.social {
+  padding-top: 2rem;
+}
+
+.footer-items {
+  padding-top: 2rem;
+  padding-right: 2rem;
+}
+
+.footer-p {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-size: 1.8rem;
+}
+.copyright-footer {
+  padding-top: 2rem;
+}
+.copyright {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 600;
 }
