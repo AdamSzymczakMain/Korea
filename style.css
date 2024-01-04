@@ -123,7 +123,6 @@ p {
   font-size: 1.8rem;
   font-weight: 500;
   text-decoration: none;
-  list-style: none;
   display: block;
   transition: all 0.3s;
   color: #000;
@@ -132,13 +131,8 @@ p {
 
 .nav__link:hover,
 .nav__link:active {
-  color: inherit;
   background-color: var(--color-primary-darker);
-  color: #000;
   border-radius: 3.2rem;
-  padding: 0.8rem 2.5rem;
-  font-weight: 500;
-  font-size: 1.8rem;
 }
 
 .booking {
@@ -250,22 +244,18 @@ p {
 
 .link--btn:link,
 .link--btn:visited {
-  border: none;
   background-color: var(--color-primary-opacity);
   color: #fff;
   font-size: 2rem;
   text-transform: uppercase;
   padding: 2.9rem 2rem;
+  border: none;
 }
 
 .link--btn:hover,
 .link--btn:active {
-  border: none;
   background-color: var(--color-primary-darker);
   color: var(--color-secondary-darker);
-  font-size: 2rem;
-  text-transform: uppercase;
-  padding: 2.9rem 2rem;
   box-shadow: inset 0 0 0 2px #000;
 }
 
