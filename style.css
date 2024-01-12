@@ -321,7 +321,7 @@ footer {
 
 .footer__link {
   color: #000;
-  font-size: 1.8rem;
+  font-size: 1.5em;
   font-weight: 500;
   text-decoration: none;
   list-style: none;
@@ -333,11 +333,10 @@ footer {
 }
 
 .social-links {
-  padding-top: 2rem;
+  margin-right: 2rem;
   display: flex;
   gap: 2rem;
-
-  font-size: 1.8rem;
+  font-size: 2em;
 }
 
 .footer-link {
@@ -354,12 +353,15 @@ footer {
 }
 
 .footer-p {
+  padding-right: 1em;
   display: flex;
   justify-content: center;
   color: #000;
-  font-size: 1.8rem;
+  font-size: 1.5em;
+  font-weight: 500;
 }
 .copyright-footer {
+  font-size: 1em;
   padding-top: 2em;
   margin-left: 2rem;
 }
