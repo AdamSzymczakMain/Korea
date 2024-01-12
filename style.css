@@ -30,7 +30,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 10px;
   box-sizing: border-box;
 }
 
@@ -360,7 +360,8 @@ footer {
   font-size: 1.8rem;
 }
 .copyright-footer {
-  padding-top: 2rem;
+  padding-top: 2em;
+  margin-left: 2rem;
 }
 .copyright {
   color: #000;
