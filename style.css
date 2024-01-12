@@ -317,6 +317,7 @@ footer {
     ),
     url(img/Korea.img1.png);
   background-position: bottom;
+  padding-bottom: 1em;
 }
 
 .footer__link {
