@@ -50,7 +50,7 @@ p {
 }
 
 .section {
-  padding: 15rem 3rem;
+  padding: 15em 3em;
   border-top: 1px solid #ddd;
 }
 
@@ -60,7 +60,7 @@ p {
   align-items: center;
   height: 9rem;
   width: 100%;
-  padding: 0 6rem;
+  padding: 0 6em;
   z-index: 100;
   color: #333;
 }
@@ -81,6 +81,7 @@ p {
 }
 
 .nav__links {
+  margin-top: 1rem;
   display: flex;
 }
 
@@ -89,7 +90,7 @@ p {
 }
 
 .header {
-  padding: 1.2rem;
+  padding: 1.2em;
   height: 80%;
   display: flex;
   flex-direction: column;
@@ -106,7 +107,7 @@ p {
 }
 
 .header-title {
-  font-size: 8rem;
+  font-size: 8em;
   color: #000;
   border-radius: 2rem;
 
@@ -119,14 +120,14 @@ p {
 
 .nav__link:link,
 .nav__link:visited {
-  padding: 0.8rem 2.5rem;
-  font-size: 1.8rem;
+  font-size: 20px;
+  padding: 0.5em 2em;
   font-weight: 500;
   text-decoration: none;
   display: block;
   transition: all 0.3s;
   color: #000;
-  margin: 0rem 0.7rem;
+  margin: 0rem 1rem;
 }
 
 .nav__link:hover,
@@ -142,7 +143,7 @@ p {
 
 .box-booking {
   background-color: rgba(243, 243, 243, 0.7);
-  padding: 1.2rem 2rem 1.2rem 2rem;
+  padding: 1.2em 2em 1.2em 2em;
   position: relative;
   flex: 1;
 }
@@ -161,8 +162,8 @@ p {
 }
 
 .title-booking {
+  font-size: 1.4em;
   color: #666;
-  font-size: 1.4rem;
   font-weight: 600;
   grid-column: 1;
 }
@@ -196,7 +197,7 @@ p {
   background-color: rgba(243, 243, 243, 0.1);
   color: #666;
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: 1.4em;
 
   margin-left: -1.7rem;
   color: var(--color-secondary);
@@ -209,7 +210,7 @@ p {
   gap: 0.3rem;
 }
 .check-out {
-  padding-right: 2rem;
+  padding-right: 2em;
 }
 
 #check-in,
@@ -224,9 +225,9 @@ p {
   background-color: rgba(243, 243, 243, 0.1);
   color: #666;
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: 1.4em;
   color: var(--color-secondary);
-  padding-top: 0.3rem;
+  padding-top: 0.3em;
 }
 
 .seacher {
@@ -237,18 +238,18 @@ p {
   border: none;
   background-color: var(--color-primary-opacity);
   color: #fff;
-  font-size: 2rem;
+  font-size: 2em;
   text-transform: uppercase;
-  padding: 2.9rem 2rem;
+  padding: 1.4em 1em;
 }
 
 .link--btn:link,
 .link--btn:visited {
   background-color: var(--color-primary-opacity);
   color: #fff;
-  font-size: 2rem;
+  font-size: 2em;
   text-transform: uppercase;
-  padding: 2.9rem 2rem;
+  padding: 1.4em 1em;
   border: none;
 }
 
@@ -273,11 +274,12 @@ p {
   display: flex;
   text-align: center;
   max-width: 60%;
-  font-size: 2.4rem;
+  font-size: 2.4em;
   margin: 0 auto;
 }
 
 .section--2 {
+  font-size: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -299,16 +301,20 @@ p {
 }
 
 .text-trip {
-  padding: 1.2rem;
+  font-size: 0.7em;
+  font-weight: 500;
+  padding: 1em;
 }
 
 .header-trip {
+  font-size: 1em;
   text-align: center;
   font-weight: 800;
   margin-top: 1.2rem;
 }
 
 footer {
+  font-size: 12px;
   display: flex;
   justify-content: space-between;
   background-image: linear-gradient(
@@ -345,12 +351,12 @@ footer {
 }
 
 .social {
-  padding-top: 2rem;
+  padding-top: 2em;
 }
 
 .footer-items {
-  padding-top: 2rem;
-  padding-right: 2rem;
+  padding-top: 2em;
+  padding-right: 2em;
 }
 
 .footer-p {
@@ -368,6 +374,6 @@ footer {
 }
 .copyright {
   color: #000;
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: 600;
 }
