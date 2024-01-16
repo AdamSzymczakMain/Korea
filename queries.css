@@ -1,0 +1,8 @@
+@media (max-width: 90em) {
+  .section--2 {
+    gap: 0rem;
+  }
+  .text-trip {
+    font-size: 0.5em;
+  }
+}
