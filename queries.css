@@ -153,4 +153,20 @@
   .box-booking:last-child {
     padding: 0;
   }
+
+  .copyright {
+    font-size: 1.2em;
+  }
+
+  .footer__link {
+    font-size: 1.8em;
+  }
+
+  .footer-p {
+    font-size: 1.8em;
+  }
+
+  .footer-link {
+    font-size: 1.2em;
+  }
 }
