@@ -8,4 +8,31 @@
   html {
     font-size: 12px;
   }
+
+  body {
+    width: 90%;
+    height: 0 auto;
+  }
+
+  .section--2 {
+    gap: 0;
+  }
+}
+
+@media (max-width: 110em) {
+  html {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 94em) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 80em) {
+  html {
+    font-size: 8px;
+  }
 }

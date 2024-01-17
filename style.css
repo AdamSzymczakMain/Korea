@@ -208,6 +208,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
+  padding-top: 0.9em;
 }
 .check-out {
   padding-right: 2em;
@@ -215,6 +216,8 @@ p {
 
 #check-in,
 #check-out {
+  font-size: 1em;
+
   color: var(--color-secondary);
   background-color: rgba(243, 243, 243, 0.1);
   border: none;
