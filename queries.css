@@ -124,3 +124,9 @@
     margin: auto; /* Wyśrodkowanie obrazu w poziomie */
   }
 }
+
+@media (max-width: 27em) {
+  html {
+    font-size: 3px;
+  }
+}
