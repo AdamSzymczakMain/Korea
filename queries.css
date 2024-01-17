@@ -36,3 +36,12 @@
     font-size: 8px;
   }
 }
+
+@media (max-width: 64em) {
+  .section--2 {
+    display: block;
+  }
+  .text-trip {
+    font-size: 0.8em;
+  }
+}
