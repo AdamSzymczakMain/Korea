@@ -3,3 +3,9 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 140em) {
+  html {
+    font-size: 12px;
+  }
+}
